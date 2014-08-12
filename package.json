@@ -1,0 +1,27 @@
+{
+  "name": "ld30-warmup",
+  "version": "0.0.1",
+  "description": "A warmup exercise for Ludum Dare 30",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prophile/ld30-warmup.git"
+  },
+  "keywords": [
+    "ludum",
+    "dare"
+  ],
+  "author": "Alistair Lynn <arplynn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prophile/ld30-warmup/issues"
+  },
+  "homepage": "https://github.com/prophile/ld30-warmup",
+  "dependencies": {
+    "coffee-script-brunch": "^1.8.0",
+    "css-brunch": "^1.7.0"
+  }
+}

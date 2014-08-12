@@ -8,3 +8,7 @@ exports.config =
     stylesheets:
       joinTo: 'styles/app.css'
 
+  plugins:
+    autoReload:
+      delay: 200
+

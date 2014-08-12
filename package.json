@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/prophile/ld30-warmup",
   "dependencies": {
+    "auto-reload-brunch": "^1.7.3",
     "coffee-script-brunch": "^1.8.0",
     "css-brunch": "^1.7.0",
     "javascript-brunch": "^1.7.1"

@@ -1,0 +1,21 @@
+{
+  "name": "ld30-warmup",
+  "version": "0.0.1",
+  "authors": [
+    "Alistair Lynn <arplynn@gmail.com>"
+  ],
+  "description": "A warmup exercise for Ludum Dare 30",
+  "keywords": [
+    "ludum",
+    "dare"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

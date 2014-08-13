@@ -11,11 +11,8 @@
     <link rel="stylesheet" href="styles/app.css">
   </head>
   <body>
-    <div class="container">
-      <div class="page-header" ng-controller="MainController">
-        <h1>Hello, world!</h1>
-        <p class="lead">Message: {{bees}}</p>
-      </div>
+    <div class="container" ng-controller="MainController">
+      <div class="page-header" ng-view></div>
     </div>
   </body>
 </html>

@@ -1,0 +1,11 @@
+<h1>{{world.locations[env.location].name}}</h1>
+<p class="lead">{{world.locations[env.location].description}}</p>
+<p class="lead">
+  <ul>
+    <li><a href="#/bees">All of the bees?</a></li>
+    <li ng-repeat="link in world.locations[env.location].links.split(' ')">
+      <a href="#/" ng-click="locGoTo(link)">Go to {{world.locations[link].name}}</a>
+    </li>
+  <ul>
+</p>
+
